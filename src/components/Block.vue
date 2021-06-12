@@ -35,12 +35,24 @@ export default {
 
 <style>
 .block {
+  transition:300ms;
+  font-size: 50px;
   width: 400px;
   border-radius: 20px;
-  background: #0faf87;
+  background: #5e6394;
   color: white;
   text-align: center;
-  padding: 100px 0;
+  padding: 80px 0;
+  margin: 40px auto;
+}
+.block:hover {
+  font-size: 50px;
+  width: 400px;
+  border-radius: 20px;
+  background: #3f4266;
+  color: white;
+  text-align: center;
+  padding: 80px 0;
   margin: 40px auto;
 }
 </style>
