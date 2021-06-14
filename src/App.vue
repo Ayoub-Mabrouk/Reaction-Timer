@@ -70,6 +70,10 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
+.mybutton[disabled]{
+opacity: 0.2;
+cursor: not-allowed;
+}
 @media all and (max-width: 30em) {
   .mybutton {
     display: block;
